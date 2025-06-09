@@ -39,7 +39,7 @@ public class NioFileCopier {
   }
 
   public static void main(String[] args) throws IOException {
-    copyFile("open.txt", "hello.txt");
+    copyFile("labs/nioFileCopier/open.txt", "labs/nioFileCopier/hello.txt");
     System.out.println("Done");
   }
 }

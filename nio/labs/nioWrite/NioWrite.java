@@ -7,12 +7,13 @@ import java.nio.charset.StandardCharsets;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.nio.file.StandardOpenOption;
+import java.util.Arrays;
 
 
 public class NioWrite {
 
   static void writeToNioFile(String data) throws IOException {
-    Path path = Paths.get("open.txt");
+    Path path = Paths.get("labs/nioWrite/open.txt");
 
     try (FileChannel fileChannel = FileChannel.open(path, StandardOpenOption.WRITE,
         StandardOpenOption.TRUNCATE_EXISTING)) {
@@ -24,13 +25,13 @@ public class NioWrite {
       while (buffer.hasRemaining()) {
         fileChannel.write(buffer);
       }
-      System.out.println(buffer.array());
+      System.out.println(Arrays.toString(buffer.array()));
       buffer.clear();
     }
   }
 
   public static void main(String[] args) throws IOException {
-    writeToNioFile("Hello");
+    writeToNioFile("Hello jacob adiaba");
   }
 
 }
