@@ -15,14 +15,14 @@ import java.lang.reflect.Method;
  **/
 public class CustomClassLoaderTestMain {
 
-  public static void main(String args[]) throws ClassNotFoundException, InstantiationException, IllegalAccessException,
+  public static void main(String[] args) throws ClassNotFoundException, InstantiationException, IllegalAccessException,
       IllegalArgumentException, InvocationTargetException, NoSuchMethodException, SecurityException {
     String currentdir = System.getProperty("user.dir");
     String absolutePath = new File(currentdir) + "/out";
     System.out.println(absolutePath);
 
     CustomClassLoader customClassLoader = new CustomClassLoader(absolutePath);
-    Class<?> clazz = customClassLoader.loadClass("week1.reflectionsXAnnotations.classloader.LoadableClass");
+   var clazz = customClassLoader.loadClass("week1.reflectionsXAnnotations.classloader.LoadableClass");
 
     if (clazz.isAnnotationPresent(Loadable.class)) {
       System.out.println("Class is loadable...");
@@ -30,6 +30,7 @@ public class CustomClassLoaderTestMain {
       Method method = clazz.getMethod("load");
       method.invoke(instance);
     }
+    System.out.println(Integer.MAX_VALUE);
 
   }
 }

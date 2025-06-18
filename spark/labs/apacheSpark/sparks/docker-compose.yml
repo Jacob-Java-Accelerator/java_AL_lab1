@@ -1,0 +1,52 @@
+version: '3'
+
+services:
+  spark-master:
+    image: bitnami/spark:latest
+    container_name: spark-master
+    hostname: spark-master
+    ports:
+      - "8080:8080"
+      - "7077:7077"
+    environment:
+      - SPARK_MODE=master
+    volumes:
+      - ./data:/data
+
+  spark-worker-1:
+    image: bitnami/spark:latest
+    depends_on:
+      - spark-master
+    environment:
+      - SPARK_MODE=worker
+      - SPARK_MASTER_URL=spark://spark-master:7077
+    volumes:
+      - ./data:/data
+
+  spark-worker-2:
+    image: bitnami/spark:latest
+    depends_on:
+      - spark-master
+    environment:
+      - SPARK_MODE=worker
+      - SPARK_MASTER_URL=spark://spark-master:7077
+    volumes:
+      - ./data:/data
+
+  spark-submit:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    depends_on:
+      - spark-master
+    environment:
+      - SPARK_MODE=client
+    command: >
+      /opt/bitnami/spark/bin/spark-submit
+      --class com.apachesparks.App
+      --master spark://spark-master:7077
+      --deploy-mode client
+      /app/spark.jar
+      /data/content1.txt
+    volumes:
+      - ./data:/data

@@ -17,11 +17,23 @@ public class App {
 
   public static void main(String[] args) {
 
-    SparkConf conf = new SparkConf().setAppName("JavaWordCount").setMaster("local");
+    if (args.length < 1) {
+      System.err.println("Usage: App <input_file>");
+      System.exit(1);
+    }
+
+    String inputPath = args[0];
+
+    SparkConf conf = new SparkConf()
+            .setAppName("JavaWordCount")
+            .setMaster("spark://spark-master:7077")
+            .set("spark.executor.memory", "512m")
+            .set("spark.executor.cores", "1");
 
     try (JavaSparkContext sc = new JavaSparkContext(conf)) {
 
-      JavaRDD<String> lines = sc.textFile("src/main/resources/content1.txt");
+      JavaRDD<String> lines = sc.textFile(inputPath);
+
 
       JavaRDD<String> words = lines.flatMap(s -> Arrays.asList(s.split(" ")).iterator());
 

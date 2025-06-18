@@ -8,7 +8,7 @@
   <name>sparks</name>
   <url>http://maven.apache.org</url>
  <properties>
-   <java.version>21</java.version>
+   <java.version>17</java.version>
     <maven.compiler.source>${java.version}</maven.compiler.source>
     <maven.compiler.target>${java.version}</maven.compiler.target>
  </properties>
@@ -37,6 +37,11 @@
     <artifactId>jackson-databind</artifactId>
     <version>2.17.1</version>
 </dependency>
+      <dependency>
+          <groupId>org.apache.spark</groupId>
+          <artifactId>spark-sql_2.13</artifactId>
+          <version>4.0.0-preview1</version>
+      </dependency>
 
 <dependency>
     <groupId>com.fasterxml.jackson.core</groupId>
@@ -55,27 +60,27 @@
   <build>
     <finalName>spark</finalName>
  <plugins>
-     <!--  <plugin> -->
-     <!--    <groupId>org.apache.maven.plugins</groupId> -->
-     <!--    <artifactId>maven-compiler-plugin</artifactId> -->
-     <!--    <version>3.13.0</version> -->
-     <!-- </plugin> -->
-     <!--   <plugin> -->
-     <!--    <groupId>org.codehaus.mojo</groupId> -->
-     <!--    <artifactId>exec-maven-plugin</artifactId> -->
-     <!--    <version>3.3.0</version> -->
-     <!--    <executions> -->
-     <!--      <execution> -->
-     <!--        <goals> -->
-     <!--          <goal>java</goal> -->
-     <!--        </goals> -->
-     <!--      </execution> -->
-     <!--    </executions> -->
-     <!--    <configuration> -->
-     <!--      <mainClass>com.apachespark.App</mainClass> -->
-     <!--   </configuration> -->
-     <!--  </plugin> -->
-     <!---->
+       <plugin>
+         <groupId>org.apache.maven.plugins</groupId>
+         <artifactId>maven-compiler-plugin</artifactId>
+         <version>3.13.0</version>
+      </plugin>
+        <plugin>
+         <groupId>org.codehaus.mojo</groupId>
+         <artifactId>exec-maven-plugin</artifactId>
+         <version>3.3.0</version>
+         <executions>
+           <execution>
+             <goals>
+               <goal>java</goal>
+             </goals> 
+           </execution>
+         </executions>
+            <configuration>
+                <mainClass>com.apachesparks.App</mainClass>
+            </configuration>
+       </plugin>
+
        <plugin>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-dependency-plugin</artifactId>

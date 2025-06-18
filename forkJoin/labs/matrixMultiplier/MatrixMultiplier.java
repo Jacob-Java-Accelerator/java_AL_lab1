@@ -1,13 +1,25 @@
 package week1.forkJoin.labs.matrixMultiplier;
 
-import java.util.concurrent.ForkJoinPool;
 import java.util.concurrent.RecursiveTask;
 
 
-public class MatrixMultiplier extends RecursiveTask<MatrixMultiplier.Matrix> {
+public class MatrixMultiplierForkJoin extends RecursiveTask<MatrixMultiplierForkJoin.Matrix> {
 
   static class Matrix {
     private final int rows;
+
+    public int getRows() {
+      return rows;
+    }
+
+    public int getCols() {
+      return cols;
+    }
+
+    public int[][] getData() {
+      return data;
+    }
+
     private final int cols;
     private final int[][] data;
 
@@ -28,7 +40,7 @@ public class MatrixMultiplier extends RecursiveTask<MatrixMultiplier.Matrix> {
   private final Matrix b;
   private final int threshold;
 
-  public MatrixMultiplier(Matrix a, Matrix b, int threshold) {
+  public MatrixMultiplierForkJoin(Matrix a, Matrix b, int threshold) {
     this.a = a;
     this.b = b;
     this.threshold = threshold;
@@ -53,10 +65,10 @@ public class MatrixMultiplier extends RecursiveTask<MatrixMultiplier.Matrix> {
     Matrix subb21 = getSubMatrix(b, halfRows, 0, b.rows - halfRows, halfCols);
     Matrix subb22 = getSubMatrix(b, halfRows, halfCols, b.rows - halfRows, b.cols - halfCols);
 
-    MatrixMultiplier task1 = new MatrixMultiplier(suba11, subb11, threshold);
-    MatrixMultiplier task2 = new MatrixMultiplier(suba12, subb21, threshold);
-    MatrixMultiplier task3 = new MatrixMultiplier(suba21, subb12, threshold);
-    MatrixMultiplier task4 = new MatrixMultiplier(suba22, subb22, threshold);
+    MatrixMultiplierForkJoin task1 = new MatrixMultiplierForkJoin(suba11, subb11, threshold);
+    MatrixMultiplierForkJoin task2 = new MatrixMultiplierForkJoin(suba12, subb21, threshold);
+    MatrixMultiplierForkJoin task3 = new MatrixMultiplierForkJoin(suba21, subb12, threshold);
+    MatrixMultiplierForkJoin task4 = new MatrixMultiplierForkJoin(suba22, subb22, threshold);
 
     task1.fork();
     task2.fork();
@@ -110,26 +122,5 @@ public class MatrixMultiplier extends RecursiveTask<MatrixMultiplier.Matrix> {
     return c;
   }
 
-  public static void main(String[] args) {
-    int[][] Adata = { { 1, 2, 3 }, { 4, 5, 6 } };
-    int[][] Bdata = { { 7, 8 }, { 9, 10 }, { 11, 12 } };
 
-    Matrix A = new MatrixMultiplier.Matrix(Adata.length - 1, Adata[0].length - 1, Adata);
-    Matrix B = new MatrixMultiplier.Matrix(Bdata.length - 1, Bdata[0].length - 1, Bdata);
-
-    int threshold = 4;
-
-    try (ForkJoinPool pool = ForkJoinPool.commonPool()) {
-      MatrixMultiplier task = new MatrixMultiplier(A, B, threshold);
-      Matrix C = pool.invoke(task);
-
-      System.out.println("Resultant Matrix:");
-      for (int i = 0; i < C.rows; i++) {
-        for (int j = 0; j < C.cols; j++) {
-          System.out.print(C.data[i][j] + " ");
-        }
-        System.out.println();
-      }
-    }
-  }
 }

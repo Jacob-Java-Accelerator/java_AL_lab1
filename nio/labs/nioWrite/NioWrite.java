@@ -30,8 +30,6 @@ public class NioWrite {
     }
   }
 
-  public static void main(String[] args) throws IOException {
-    writeToNioFile("Hello jacob adiaba");
-  }
+
 
 }
