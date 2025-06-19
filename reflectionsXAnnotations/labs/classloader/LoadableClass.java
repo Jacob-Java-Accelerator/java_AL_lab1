@@ -2,6 +2,7 @@ package week1.reflectionsXAnnotations.classloader;
 
 @Loadable
 public class LoadableClass {
+
   public LoadableClass() {
   }
 

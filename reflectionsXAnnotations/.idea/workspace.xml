@@ -5,65 +5,39 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1c4235e8-a48b-46d2-9a63-fb49d14c8e1d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../forkJoin/labs/fibonacci/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../forkJoin/labs/fibonacci/RecursiveFibonacci.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../forkJoin/labs/matrixMultiplier/PerformanceComparison.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../forkJoin/labs/matrixMultiplier/SequentialMatrixMultiplier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../forkJoin/labs/sumTask/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../forkJoin/labs/sumTask/SimpleSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../forkJoin/out/production/forkJoin/week1/forkJoin/forkJoin.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../forkJoin/out/production/forkJoin/week1/forkJoin/labs/fibonacci/fibonacci.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../forkJoin/out/production/forkJoin/week1/forkJoin/labs/sumTask/out/production/sumTask/week1/forkJoin/labs/sumTask/sumTask.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../forkJoin/out/production/forkJoin/week1/forkJoin/labs/sumTask/sumTask.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nio/labs/nioFileCopier/IoFileCopier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nio/labs/nioFileCopier/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nio/labs/nioFileCopier/ThreadMonitor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nio/labs/nioWrite/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/labs/logger/LogExecutionTimeProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/labs/logger/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/labs/logger/MyService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/labs/logger/MyServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/labs/practice/anotations/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/labs/practice/anotations/ImportantString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/labs/practice/anotations/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/labs/practice/anotations/RunImmediately.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/labs/practice/anotations/VeryImportant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/labs/practice/reflections/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/labs/practice/reflections/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spark/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spark/labs/apacheSpark/sparks/DockerFile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spark/labs/apacheSpark/sparks/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gitgnore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitgnore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../forkJoin/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../forkJoin/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forkJoin/labs/fibonacci/Fibonacci.java" beforeDir="false" afterPath="$PROJECT_DIR$/../forkJoin/labs/fibonacci/Fibonacci.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forkJoin/labs/matrixMultiplier/MatrixMultiplier.java" beforeDir="false" afterPath="$PROJECT_DIR$/../forkJoin/labs/matrixMultiplier/MatrixMultiplier.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forkJoin/labs/sumTask/SumTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/../forkJoin/labs/sumTask/SumTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../forkJoin/labs/extra/Fibonacci.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../forkJoin/labs/extra/FibonacciTask.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../forkJoin/labs/fibonacci/Fibonacci.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../forkJoin/labs/fibonacci/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../forkJoin/labs/fibonacci/RecursiveFibonacci.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../forkJoin/labs/fibonacci/fibonacci.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../forkJoin/labs/matrixMultiplier/MatrixMultiplier.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../forkJoin/labs/matrixMultiplier/PerformanceComparison.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../forkJoin/labs/matrixMultiplier/SequentialMatrixMultiplier.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../forkJoin/labs/sumTask/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../forkJoin/labs/sumTask/SimpleSum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../forkJoin/labs/sumTask/SumTask.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../forkJoin/labs/sumTask/out/production/sumTask/week1/forkJoin/labs/sumTask/sumTask.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../forkJoin/labs/sumTask/sumTask.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../forkJoin/out/production/forkJoin/week1/forkJoin/forkJoin.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../forkJoin/out/production/forkJoin/week1/forkJoin/labs/fibonacci/fibonacci.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../forkJoin/out/production/forkJoin/week1/forkJoin/labs/sumTask/out/production/sumTask/week1/forkJoin/labs/sumTask/sumTask.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../forkJoin/out/production/forkJoin/week1/forkJoin/labs/sumTask/sumTask.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../nio/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../nio/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nio/labs/nioFileCopier/NioFileCopier.java" beforeDir="false" afterPath="$PROJECT_DIR$/../nio/labs/nioFileCopier/NioFileCopier.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nio/labs/nioFileCopier/open.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nio/labs/nioWrite/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../nio/labs/nioWrite/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../nio/labs/nioWrite/NioWrite.java" beforeDir="false" afterPath="$PROJECT_DIR$/../nio/labs/nioWrite/NioWrite.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nio/out/production/nio/week1/nio/labs/nioFileCopier/NioFileCopier.class" beforeDir="false" afterPath="$PROJECT_DIR$/../nio/out/production/nio/week1/nio/labs/nioFileCopier/NioFileCopier.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nio/out/production/nio/week1/nio/labs/nioFileCopier/hello.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../nio/out/production/nio/week1/nio/labs/nioFileCopier/hello.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nio/out/production/nio/week1/nio/labs/nioFileCopier/open.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../nio/out/production/nio/week1/nio/labs/nioFileCopier/open.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nio/labs/nioWrite/open.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../nio/labs/nioWrite/open.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nio/out/production/nio/week1/nio/labs/nioWrite/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../nio/out/production/nio/week1/nio/labs/nioWrite/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../nio/out/production/nio/week1/nio/labs/nioWrite/NioWrite.class" beforeDir="false" afterPath="$PROJECT_DIR$/../nio/out/production/nio/week1/nio/labs/nioWrite/NioWrite.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/7/275d783e298228506068436512433d343feb52aa" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/2/7/275d783e298228506068436512433d343feb52aa" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/labs/classloader/CustomClassLoaderTestMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/labs/classloader/CustomClassLoaderTestMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/labs/logger/LogExecutionTime.java" beforeDir="false" afterPath="$PROJECT_DIR$/labs/logger/LogExecutionTime.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/labs/logger/LogExecutionTimeHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/labs/logger/LogExecutionTimeTestMain.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/labs/logger/ProxyFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spark/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spark/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spark/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spark/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spark/labs/apacheSpark/sparks/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/../spark/labs/apacheSpark/sparks/.classpath" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spark/labs/apacheSpark/sparks/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spark/labs/apacheSpark/sparks/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spark/labs/apacheSpark/sparks/src/main/java/com/apachesparks/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spark/labs/apacheSpark/sparks/src/main/java/com/apachesparks/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/labs/classloader/Loadable.java" beforeDir="false" afterPath="$PROJECT_DIR$/labs/classloader/Loadable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/labs/classloader/LoadableClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/labs/classloader/LoadableClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/reflectionsXAnnotations/week1/reflectionsXAnnotations/classloader/LoadableClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/reflectionsXAnnotations/week1/reflectionsXAnnotations/classloader/LoadableClass.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,31 +70,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.CustomClassLoaderTestMain.executor": "Run",
-    "Application.LogExecutionTimeTestMain.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.week1.reflectionsXAnnotations.logger.Main.executor": "Run",
-    "Application.week1.reflectionsXAnnotations.practice.anotations.Main.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "junie.onboarding.icon.badge.shown": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/JacobSabbathAdiaba/OneDrive - AmaliTech gGmbH/Desktop/Java Accelerator/Java Advance/week1/reflectionsXAnnotations",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.CustomClassLoaderTestMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LogExecutionTimeTestMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.week1.reflectionsXAnnotations.logger.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.week1.reflectionsXAnnotations.practice.anotations.Main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/JacobSabbathAdiaba/OneDrive - AmaliTech gGmbH/Desktop/Java Accelerator/Java Advance/week1/reflectionsXAnnotations&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.CustomClassLoaderTestMain">
     <configuration name="CustomClassLoaderTestMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="week1.reflectionsXAnnotations.classloader.CustomClassLoaderTestMain" />
@@ -218,6 +192,8 @@
       <workItem from="1741683133709" duration="158000" />
       <workItem from="1749457963095" duration="312000" />
       <workItem from="1750247805019" duration="4907000" />
+      <workItem from="1750323058944" duration="1119000" />
+      <workItem from="1750338170642" duration="1241000" />
     </task>
     <servers />
   </component>
