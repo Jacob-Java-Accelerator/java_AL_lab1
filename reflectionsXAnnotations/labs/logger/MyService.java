@@ -4,5 +4,6 @@ public interface MyService {
 	void fastMethod();
 
 	void slowMethod();
+	void notAnnotatedMethod();
 }
 

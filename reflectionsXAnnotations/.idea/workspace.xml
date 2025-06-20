@@ -10,34 +10,11 @@
       <change beforePath="$PROJECT_DIR$/../.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../forkJoin/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../forkJoin/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forkJoin/labs/extra/Fibonacci.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forkJoin/labs/extra/FibonacciTask.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forkJoin/labs/fibonacci/Fibonacci.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forkJoin/labs/fibonacci/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forkJoin/labs/fibonacci/RecursiveFibonacci.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forkJoin/labs/fibonacci/fibonacci.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forkJoin/labs/matrixMultiplier/MatrixMultiplier.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forkJoin/labs/matrixMultiplier/PerformanceComparison.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forkJoin/labs/matrixMultiplier/SequentialMatrixMultiplier.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forkJoin/labs/sumTask/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forkJoin/labs/sumTask/SimpleSum.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forkJoin/labs/sumTask/SumTask.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forkJoin/labs/sumTask/out/production/sumTask/week1/forkJoin/labs/sumTask/sumTask.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forkJoin/labs/sumTask/sumTask.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forkJoin/out/production/forkJoin/week1/forkJoin/forkJoin.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forkJoin/out/production/forkJoin/week1/forkJoin/labs/fibonacci/fibonacci.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forkJoin/out/production/forkJoin/week1/forkJoin/labs/sumTask/out/production/sumTask/week1/forkJoin/labs/sumTask/sumTask.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forkJoin/out/production/forkJoin/week1/forkJoin/labs/sumTask/sumTask.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nio/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../nio/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nio/labs/nioWrite/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../nio/labs/nioWrite/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nio/labs/nioWrite/NioWrite.java" beforeDir="false" afterPath="$PROJECT_DIR$/../nio/labs/nioWrite/NioWrite.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nio/labs/nioWrite/open.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../nio/labs/nioWrite/open.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nio/out/production/nio/week1/nio/labs/nioWrite/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../nio/out/production/nio/week1/nio/labs/nioWrite/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nio/out/production/nio/week1/nio/labs/nioWrite/NioWrite.class" beforeDir="false" afterPath="$PROJECT_DIR$/../nio/out/production/nio/week1/nio/labs/nioWrite/NioWrite.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/labs/classloader/Loadable.java" beforeDir="false" afterPath="$PROJECT_DIR$/labs/classloader/Loadable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/labs/classloader/LoadableClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/labs/classloader/LoadableClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/reflectionsXAnnotations/week1/reflectionsXAnnotations/classloader/LoadableClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/reflectionsXAnnotations/week1/reflectionsXAnnotations/classloader/LoadableClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/labs/classloader/CustomClassLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/labs/classloader/CustomClassLoader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/labs/logger/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/labs/logger/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/labs/logger/MyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/labs/logger/MyService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/labs/logger/MyServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/labs/logger/MyServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -194,6 +171,7 @@
       <workItem from="1750247805019" duration="4907000" />
       <workItem from="1750323058944" duration="1119000" />
       <workItem from="1750338170642" duration="1241000" />
+      <workItem from="1750414727852" duration="3959000" />
     </task>
     <servers />
   </component>

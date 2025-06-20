@@ -1,0 +1,14 @@
+# Ignore class files
+*.class
+
+# Ignore IDE files
+*.iml
+.idea/
+
+# Ignore output and build directories
+out/
+target/
+
+# Ignore OS files
+.DS_Store
+Thumbs.db 

@@ -6,5 +6,6 @@ public class Main {
 
 		service.fastMethod();
 		service.slowMethod();
+		service.notAnnotatedMethod();
 	}
 }
